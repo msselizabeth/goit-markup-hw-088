@@ -1,5 +1,5 @@
-.hero {
-    max-width: 1600px;
+.hero { 
+    
     margin-left: auto;
     margin-right: auto;
 
@@ -7,14 +7,58 @@
     background-image: linear-gradient(to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url("../images/overlay-foto.jpg");
+            url('../images/mobile-foto/mobile-overlay-foto-1x.jpg');
+            background-repeat: no-repeat;
 
+           
+    
     background-color: var(--background-color-bord);
 
     text-align: center;
+    line-height: 0;
     padding-top: 200px;
     padding-bottom: 200px;
 }
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width:767px),
+(min-resolution: 192dpi) and (max-width:767px),
+(min-resolution: 2) and (max-width:767px) {
+    .hero {
+        background-image: url('../images/mobile-foto/mobile-overlay-foto@2x.jpg');
+    }
+}
+
+@media  screen and (min-width: 768px) {
+    .hero {
+        background-image: url('../images/tablet-foto/tablet-overlay-foto-1x.jpg');
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width:768px), 
+           (min-resolution: 192dpi) and (min-width:768px) , 
+           (min-resolution: 2) and (min-width:768px) {
+            .hero {
+                background-image: url('../images/tablet-foto/tablet-overlay-foto@2x.jpg');
+            }
+           } 
+
+@media  screen and (min-width: 1200px) {
+    .hero {
+        background-image: url('../images/desktop-foto/desktop-overlay-foto-1x.jpg');
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width:1200px), 
+           (min-resolution: 192dpi) and (min-width:1200px) , 
+           (min-resolution: 2) and (min-width:1200px) {
+            .hero {
+                max-width: 1600px;
+                max-height: 600px;
+                
+                background-size: 1600px 600px;
+                background-image: url('../images/desktop-foto/desktop-overlay-foto@2x.jpg');
+            }
+           } 
 
 
 .hero__title {
