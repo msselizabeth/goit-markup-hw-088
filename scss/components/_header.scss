@@ -1,13 +1,4 @@
-// .header { 
 
-    // border-bottom: 1px solid #ECECEC;
-// }
-
-// .header__box {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
 
 @media screen and (max-width:767px) {
     .header {
@@ -26,9 +17,7 @@
 
 @media screen and (min-width:768px) {
     .header {
-        line-height: 0;
-        border-bottom: 1px solid #ECECEC;
-        
+        border-bottom: 1px solid #ECECEC;       
 
         &__box {
             display: flex;

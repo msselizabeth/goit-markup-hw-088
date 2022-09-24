@@ -40,33 +40,23 @@
 }
 }
 
-// .contact__link {
-//     color: var(--color-secondary);
-//     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+@media screen and (min-width:1200px) {
+    .contact {
+        flex-direction: row;
+        align-items: center;
+        margin-left: auto;
 
-//     text-decoration: none;
-//     font-weight: 500;
-//     line-height: 1.172;
-//     letter-spacing: 0.02em;
+        &__link {
+            line-height: 1.14;
+            font-size: 14px;
+            margin-right: 50px;
+            margin-bottom: 0;
+        }
 
-//     display: block;
-//     padding-top: 32px;
-//     padding-bottom: 32px;
-//     margin-right: 50px;
-//     &:hover,
-//         &:focus {
-//             color: var(--color-active);
-//         }
+        &__icon {
+            margin-right: 10px;
+        }
+    }
 
-//     &:last-child {
-//             margin: 0;
-   
-// }
-// }
+}
 
-
-// .contact__icon {
-
-//     margin-right: 10px;
-//     fill: currentColor;
-// }
