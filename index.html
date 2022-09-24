@@ -113,68 +113,70 @@
            </div> 
            <!--Модальное окно-->
             <div data-modal class="backdrop is-hidden">
-            <div class="modal">
-                <button data-modal-close type="button" class="modal__btn">
-                    <svg class="modal__icon">
-                    <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
-                </svg>
-                </button>
-                <div class="modal__inner">
-                    <h2 class="form__title">Оставьте свои данные, мы вам перезвоним</h2>
-                    <form class="form" name="main-form" autocomplete="on" novalidate >
-                       <div class="form__field">
-                         <label class="form__field--label" for="name">Имя</label>
-                         <div class="form__field--box">
-                             <input class="form__field--input" type="text" name="name" id="name">
+            <div class="container modal-container">
+                <div class="modal">
+                    <button data-modal-close type="button" class="modal__btn">
+                        <svg class="modal__icon">
+                        <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+                    </svg>
+                    </button>
+                    <div class="modal__inner">
+                        <h2 class="form__title">Оставьте свои данные, мы вам перезвоним</h2>
+                        <form class="form" name="main-form" autocomplete="on" novalidate >
+                           <div class="form__field">
+                             <label class="form__field--label" for="name">Имя</label>
+                             <div class="form__field--box">
+                                 <input class="form__field--input" type="text" name="name" id="name">
+                                 <svg class="form__icon" aria-hidden="true">
+                                 <use href="./images/icons.svg#icon-person"></use>
+                                 </svg>  
+                             </div> 
+                           </div>  
+                           <div class="form__field">
+                             <label class="form__field--label" for="tel">Телефон</label>
+                             <div class="form__field--box">
+                                <input class="form__field--input" type="tel" name="tel" id="tel">
                              <svg class="form__icon" aria-hidden="true">
-                             <use href="./images/icons.svg#icon-person"></use>
-                             </svg>  
-                         </div> 
-                       </div>  
-                       <div class="form__field">
-                         <label class="form__field--label" for="tel">Телефон</label>
-                         <div class="form__field--box">
-                            <input class="form__field--input" type="tel" name="tel" id="tel">
-                         <svg class="form__icon" aria-hidden="true">
-                            <use href="./images/icons.svg#icon-telephone"></use>
-                         </svg>
-                         </div>
-                       </div>  
-                        <div class="form__field">
-                         <label class="form__field--label" for="email">Почта</label>
-                         <div class="form__field--box">
-                            <input class="form__field--input" type="email" name="email" id="email">
-                          <svg class="form__icon" aria-hidden="true">
-                            <use href="./images/icons.svg#icon-email"></use>
-                          </svg>   
-                         </div> 
-                       </div> 
-                         <div class="form__field">
-                         <label class="form__field--label" for="comment">Комментарий</label>
-                         <textarea class="form__field--input form__comment" name="comment" id="comment" placeholder="Введите текст"></textarea> 
-                       </div>  
-                      
-                        
-                        <label class="form__field--label terms-condition">
-                            <input class="checkbox" type="checkbox" name="terms-condition">
-                            <svg class="checkbox__icon" aria-hidden="true">
-                                <use href="./images/icons.svg#icon-check"></use>
-                            </svg>
-                            <svg class="checkbox__icon--active" aria-hidden="true">
-                                <use href="./images/icons.svg#icon-check-2"></use>
-                            </svg> -->
-                           
-                              <span class="terms-condition__text">
-                                Соглашаюсь c рассылкой и принимаю 
+                                <use href="./images/icons.svg#icon-telephone"></use>
+                             </svg>
+                             </div>
+                           </div>  
+                            <div class="form__field">
+                             <label class="form__field--label" for="email">Почта</label>
+                             <div class="form__field--box">
+                                <input class="form__field--input" type="email" name="email" id="email">
+                              <svg class="form__icon" aria-hidden="true">
+                                <use href="./images/icons.svg#icon-email"></use>
+                              </svg>   
+                             </div> 
+                           </div> 
+                             <div class="form__field">
+                             <label class="form__field--label" for="comment">Комментарий</label>
+                             <textarea class="form__field--input form__comment" name="comment" id="comment" placeholder="Введите текст"></textarea> 
+                           </div>  
+                          
                             
-                            <a class="terms-condition__link" href="#">Условия договора</a>
-                             </span> 
-                            
-                           
-                         </label> 
-                      
-                     <button class="button" type="submit">Отправить</button>                  
-                    </form>
+                            <label class="form__field--label terms-condition">
+                                <input class="checkbox" type="checkbox" name="terms-condition">
+                                <svg class="checkbox__icon" aria-hidden="true">
+                                    <use href="./images/icons.svg#icon-check"></use>
+                                </svg>
+                                <svg class="checkbox__icon--active" aria-hidden="true">
+                                    <use href="./images/icons.svg#icon-check-2"></use>
+                                </svg>
+                               
+                                  <span class="terms-condition__text">
+                                    Соглашаюсь c рассылкой и принимаю 
+                                
+                                <a class="terms-condition__link" href="#">Условия договора</a>
+                                 </span> 
+                                
+                               
+                             </label> 
+                          
+                         <button class="button" type="submit">Отправить</button>                  
+                        </form>
+                    </div>
                 </div>
             </div>
            </div>
@@ -597,8 +599,8 @@
             
          </div>
         </div>
-    </footer>
-    <script src="./js/modal.js"></script> -->
+    </footer> -->
+    <script src="./js/modal.js"></script>
     <script src="./js/mobile.js"></script>
 </body>
 </html>
