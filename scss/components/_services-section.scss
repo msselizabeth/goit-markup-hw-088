@@ -1,3 +1,10 @@
+
+@media screen and ( max-width:1199px) {
+    .services {
+        display: none;
+    }
+}
+
 .services {
     text-align: center;
     padding-top: 0;
@@ -28,9 +35,6 @@
     }
 }
 
-// .services__item:last-child {
-//     margin: 0;
-// }
 
 .services__img { display: block;}
 
