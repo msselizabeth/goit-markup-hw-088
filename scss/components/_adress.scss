@@ -2,6 +2,9 @@
     width: 231px;
     margin: 0;
     padding: 0;
+
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 .address {
@@ -29,3 +32,18 @@
     }
 }
 
+@media screen and (min-width:768px) {
+    .adress__box {
+        margin-top: 0;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .adress__box {
+        margin: 0;
+        text-align: start;
+    }
+}
