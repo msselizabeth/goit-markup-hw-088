@@ -8,6 +8,39 @@
     
 }
 
+.modal__inner {
+    padding: 40px;
+}
+
+.modal__btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color-primary);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+
+    color: var(--color-primary);
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+    &:hover , &:focus { 
+        color: var(--color-active);
+    }
+}
+
+.modal__icon {
+    fill: currentColor;
+    width: 18px;
+    height: 18px;
+}
+
+
 @media screen and (max-width:767px) {
     .modal { 
         position: relative;
@@ -45,35 +78,4 @@
     }
 }
 
-.modal__inner {
-    padding: 40px;
-}
-
-.modal__btn {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--background-color-primary);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-
-    color: var(--color-primary);
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-
-    &:hover , &:focus { 
-        color: var(--color-active);
-    }
-}
-
-.modal__icon {
-    fill: currentColor;
-    width: 18px;
-    height: 18px;
-}
 
